@@ -51,7 +51,7 @@ This application leverages Google's Gemini LLM to help students with:
 """)
 
 # Create tabs for different functionalities
-tab1, tab2, tab3 = st.sidetabs(["🐛 Code Debugger", "💡 Topic Explainer", "📊 Data Analysis Concepts"])
+tab1, tab2, tab3 = st.tabs(["🐛 Code Debugger", "💡 Topic Explainer", "📊 Data Analysis Concepts"])
 
 # --- Tab 1: Code Debugger ---
 with tab1:
